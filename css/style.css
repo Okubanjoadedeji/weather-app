@@ -109,6 +109,20 @@ body{
 
 
 @media (max-width:520px){
+  .card {
+    padding: 40px 15px;
+  }
+
+  .weather h1 {
+    font-size: 60px;
+    font-weight: 500;
+  }
+
+  .weather h2 {
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 10px;
+  }
 
   .search input{
     margin: 0;
@@ -121,5 +135,21 @@ body{
   .search button{
     height: 40px;
     width: 40px;
+  }
+
+  .details {
+    padding: 0;
+    margin-top: 40px;
+  }
+
+  .col img {
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  .humidity,
+  .wind {
+    font-size: 20px;
+    margin-top: -6px;
   }
 }
